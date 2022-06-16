@@ -2,6 +2,7 @@
   --clr-lightBlue: #1992d4;
   --clr-lightGray: #e2e8f0;
   --clr-white: #fff;
+  --clr-black: #000;
   --clr-orange: #f0b429;
 }
 
@@ -24,16 +25,67 @@ body {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1.1fr 4fr;
+  grid-template-rows: 1.18fr 5fr;
 }
 
 /* ======================= 
           HEADER 
    ======================= */
 header {
-  background-color: rgb(234, 227, 94);
   grid-column: 2 / 3;
+  padding: 15px 20px;
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+}
+/* Row-NavBar-Top */
+.row-navbar-top,
+.row-navbar-bottom {
+  border: 1px solid #000;
+}
+
+.row-navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.form_icon {
+  width: 25px;
+}
+
+.form_control {
+  margin-left: 15px;
+  padding: 0 20px;
+  width: 560px;
+  height: 30px;
+  background-color: var(--clr-lightGray);
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.top-right-boy-darren-icon {
+  width: 50px;
+}
+
+.top-right-icons {
+  margin-right: -70px;
+}
+
+.right-profile-name {
+  font-size: 20px;
+}
+
+/* Row-NavBar-Bottom */
+.top-left-boy-darren-icon {
+  width: 70px;
 }
 
 /* ======================= 
@@ -52,17 +104,18 @@ aside {
   align-items: center;
 }
 
-.dashboard_img {
+.dashboard_icon {
   width: 50px;
 }
 
 .dashboard_title {
   margin-left: 10px;
   font-size: 28px;
+  font-weight: 500;
 }
 
-/* Navigation-Bar */
-nav {
+/* Col-NavBar */
+.col-navbar {
   margin-left: 30px;
 }
 
@@ -71,13 +124,13 @@ nav {
   align-items: center;
 }
 
-.nav_img {
-  margin-right: 15px;
-  width: 20px;
+.nav_icon {
+  margin-right: 18px;
+  width: 25px;
 }
 
 .nav_bar {
-  margin-top: 60px;
+  margin: 60px 0 70px;
 }
 
 .nav_item {
@@ -94,5 +147,5 @@ nav {
             MAIN 
    ======================= */
 main {
-  background-color: rgb(152, 234, 94);
+  background-color: var(--clr-lightGray);
 }
