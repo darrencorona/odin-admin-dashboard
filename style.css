@@ -1,0 +1,85 @@
+:root {
+  --clr-lightBlue: #1992d4;
+  --clr-lightGray: #e2e8f0;
+  --clr-white: #fff;
+  --clr-orange: #f0b429;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ======================= 
+       GRID-CONTAINER 
+   ======================= */
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+/* ======================= 
+          HEADER 
+   ======================= */
+header {
+  background-color: rgb(234, 227, 94);
+  grid-column: 2 / 3;
+}
+
+/* ======================= 
+            ASIDE 
+   ======================= */
+aside {
+  grid-row: 1 / -1;
+  background-color: var(--clr-lightBlue);
+  color: var(--clr-white);
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard_img {
+  width: 50px;
+}
+
+.dashboard_title {
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+/* SideBar */
+nav {
+  margin-left: 40px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-img {
+  margin-right: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+/* ======================= 
+            MAIN 
+   ======================= */
+main {
+  background-color: rgb(152, 234, 94);
+}
