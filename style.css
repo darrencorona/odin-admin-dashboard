@@ -41,16 +41,19 @@ header {
 /* Row-NavBar-Top */
 .row-navbar-top,
 .row-navbar-bottom {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  width: 1050px;
+  margin: auto;
 }
 
 .row-navbar-top {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-form {
+form.row-navbar-top-left {
+  flex-grow: 1;
   display: flex;
   align-items: center;
 }
@@ -71,12 +74,16 @@ form {
   outline: none;
 }
 
-.top-right-boy-darren-icon {
-  width: 50px;
+/* Row-Navbar-Top-Right */
+.row-navbar-top-right {
+  flex-grow: 1.6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.top-right-icons {
-  margin-right: -70px;
+.top-right-boy-darren-icon {
+  width: 50px;
 }
 
 .right-profile-name {
@@ -84,8 +91,53 @@ form {
 }
 
 /* Row-NavBar-Bottom */
+.row-navbar-bottom {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Row-NavBar-Bottom-Left */
+.row-navbar-bottom-left {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+}
+
 .top-left-boy-darren-icon {
   width: 70px;
+}
+
+.intro {
+  margin-left: 20px;
+}
+
+.intro .greetings {
+  font-weight: 600;
+}
+
+/* Row-NavBar-Bottom-Right */
+.row-navbar-bottom-right {
+  flex-grow: 0.7;
+}
+
+.nav-bar-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item-btn {
+  list-style: none;
+}
+
+.nav-bar-btn-btn {
+  padding: 12px 35px;
+  background-color: var(--clr-lightBlue);
+  color: var(--clr-white);
+  border: none;
+  border-radius: 22px;
+  font-size: 15px;
 }
 
 /* ======================= 
@@ -148,4 +200,26 @@ aside {
    ======================= */
 main {
   background-color: var(--clr-lightGray);
+  display: grid;
+  grid-template-columns: 3fr 1.1fr;
+}
+/* Projects */
+.projects {
+}
+
+/* Articles */
+.articles {
+  background-color: rgb(67, 58, 45);
+}
+
+/* ======================= 
+          HOVER 
+ ======================= */
+.dashboard_icon,
+.dashboard_title,
+.form_icon,
+.top-right-icons,
+.right-profile-name,
+.nav-bar-btn-btn:hover {
+  cursor: pointer;
 }

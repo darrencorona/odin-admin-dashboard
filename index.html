@@ -22,32 +22,54 @@
         <!-- Row-NavBar-Top -->
         <div class="row-navbar-top">
           <!-- Form -->
-          <form action="#">
+          <form class="row-navbar-top-left" action="#">
             <label for="search"
               ><img class="form_icon" src="/img/magnify.svg" alt="magnify-icon"
             /></label>
             <input class="form_control" type="search" id="search" />
           </form>
 
-          <img
-            class="top-right-icons bell-ring-icon"
-            src="/img/bell-ring.svg"
-            alt="bell-ring-icon"
-          />
-          <img
-            class="top-right-icons top-right-boy-darren-icon"
-            src="/img/boy-darren.svg"
-            alt="boy-darren-icon"
-          />
-          <h3 class="right-profile-name">Darren Corona</h3>
+          <div class="row-navbar-top-right">
+            <img
+              class="top-right-icons bell-ring-icon"
+              src="/img/bell-ring.svg"
+              alt="bell-ring-icon"
+            />
+            <img
+              class="top-right-icons top-right-boy-darren-icon"
+              src="/img/boy-darren.svg"
+              alt="boy-darren-icon"
+            />
+            <h3 class="right-profile-name">Darren Corona</h3>
+          </div>
         </div>
         <!-- Row-NavBar-Bottom -->
         <div class="row-navbar-bottom">
-          <img
-            class="top-left-boy-darren-icon"
-            src="/img/boy-darren.svg"
-            alt="boy-darren-icon"
-          />
+          <div class="row-navbar-bottom-left">
+            <img
+              class="top-left-boy-darren-icon"
+              src="/img/boy-darren.svg"
+              alt="boy-darren-icon"
+            />
+            <div class="intro">
+              <p class="greetings">Hi there,</p>
+              <h2 class="left-profile-name">Darren Corona (@darren)</h2>
+            </div>
+          </div>
+
+          <nav class="row-navbar-bottom-right">
+            <ul class="nav-bar-btn">
+              <li class="nav-item-btn">
+                <button class="nav-bar-btn-btn">New</button>
+              </li>
+              <li class="nav-item-btn">
+                <button class="nav-bar-btn-btn">Upload</button>
+              </li>
+              <li class="nav-item-btn">
+                <button class="nav-bar-btn-btn">Share</button>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
 
@@ -168,7 +190,26 @@
       <!------------------------- 
                 MAIN 
        ------------------------->
-      <main></main>
+      <main>
+        <!-- Projects  -->
+        <div class="projects">
+          <h3 class="projects_title">Your Projects</h3>
+          <div class="projects_container">
+            <div class="card">
+              <div class="card_body">
+                <h4 class="card_title">Super Cool Project</h4>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Fugit possimus deleniti repellat, nulla odit minus quisquam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Articles -->
+        <div class="articles"></div>
+      </main>
     </div>
   </body>
 </html>
