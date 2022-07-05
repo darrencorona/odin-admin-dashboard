@@ -37,18 +37,18 @@ body {
 header {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-  padding: 15px 20px;
+  padding: 0.9375rem 1.25rem;
   background-color: var(--clr-white);
   color: var(--clr-black);
-  box-shadow: 0px 2px 5px var(--clr-shadow);
+  box-shadow: 0rem 0.125rem 0.3125rem var(--clr-shadow);
   z-index: 1;
 }
 
 /* Row-NavBar-Top */
 .row-navbar-top,
 .row-navbar-bottom {
-  /* border: 1px solid #000; */
-  width: 1050px;
+  /* border: 0.0625rem solid #000; */
+  width: 65.625rem;
   margin: auto;
 }
 
@@ -65,18 +65,18 @@ form.row-navbar-top-left {
 }
 
 .form_icon {
-  width: 25px;
+  width: 1.5625rem;
 }
 
 .form_control {
-  margin-left: 15px;
-  padding: 0 20px;
-  width: 560px;
-  height: 30px;
+  margin-left: 0.9375rem;
+  padding: 0 1.25rem;
+  width: 35rem;
+  height: 1.875rem;
   background-color: var(--clr-lightGray);
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   outline: none;
 }
 
@@ -89,16 +89,16 @@ form.row-navbar-top-left {
 }
 
 .top-right-boy-darren-icon {
-  width: 50px;
+  width: 3.125rem;
 }
 
 .right-profile-name {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /* Row-NavBar-Bottom */
 .row-navbar-bottom {
-  margin-top: 25px;
+  margin-top: 1.5625rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,11 +112,11 @@ form.row-navbar-top-left {
 }
 
 .top-left-boy-darren-icon {
-  width: 70px;
+  width: 4.375rem;
 }
 
 .intro {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .intro .greetings {
@@ -138,12 +138,12 @@ form.row-navbar-top-left {
 }
 
 .nav-bar-btn-btn {
-  padding: 12px 35px;
+  padding: 0.75rem 2.1875rem;
   background-color: var(--clr-lightBlue);
   color: var(--clr-white);
   border: none;
-  border-radius: 22px;
-  font-size: 15px;
+  border-radius: 1.375rem;
+  font-size: 0.9375rem;
 }
 
 /* ======================= 
@@ -158,24 +158,24 @@ aside {
 
 /* Dashboard */
 .dashboard {
-  margin: 15px 0 0 15px;
+  margin: 0.9375rem 0 0 0.9375rem;
   display: flex;
   align-items: center;
 }
 
 .dashboard_icon {
-  width: 50px;
+  width: 3.125rem;
 }
 
 .dashboard_title {
-  margin-left: 10px;
-  font-size: 28px;
+  margin-left: 0.625rem;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 
 /* Col-NavBar */
 .col-navbar {
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .nav_link {
@@ -184,17 +184,17 @@ aside {
 }
 
 .nav_icon {
-  margin-right: 18px;
-  width: 25px;
+  margin-right: 1.125rem;
+  width: 1.5625rem;
 }
 
 .nav_bar {
-  margin: 60px 0 70px;
+  margin: 3.75rem 0 4.375rem;
 }
 
 .nav_item {
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
   list-style: none;
 }
 
@@ -217,42 +217,42 @@ main {
  ======================= */
 .proj {
   width: 95%;
-  margin: 25px auto 60px;
+  margin: 1.5625rem auto 3.75rem;
 }
 
 .proj_container {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   display: grid;
-  gap: 25px;
+  gap: 1.5625rem;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, minmax(220px, 1fr));
+  grid-template-rows: repeat(3, minmax(13.75rem, 1fr));
 }
 
 /* Card-Projects */
 .proj .card {
   border-left-style: solid;
   border-color: var(--clr-orange);
-  border-width: 7px;
+  border-width: 0.4375rem;
   background-color: var(--clr-white);
-  border-radius: 7px;
-  box-shadow: 2px 2px 5px var(--clr-shadow);
+  border-radius: 0.4375rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem var(--clr-shadow);
 }
 
 .proj .card_body {
   width: 100%;
   height: 100%;
-  padding: 35px 25px 25px 20px;
+  padding: 2.1875rem 1.5625rem 1.5625rem 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .proj .card_title {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .proj .card_text {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   color: var(--clr-gray);
 }
@@ -262,7 +262,7 @@ main {
 }
 
 .proj .card_link {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 /* ======================= 
@@ -276,55 +276,55 @@ main {
 /* Announcements */
 .annc {
   width: 90%;
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 
 .annc .card {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   width: 100%;
-  padding: 30px;
+  padding: 1.875rem;
   background-color: var(--clr-white);
-  border-radius: 7px;
-  box-shadow: 2px 2px 5px var(--clr-shadow);
+  border-radius: 0.4375rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem var(--clr-shadow);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .annc .card_text {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 300;
   color: var(--clr-gray);
 }
 
 .annc hr {
-  border-top: 1px var(--clr-gray);
+  border-top: 0.0625rem var(--clr-gray);
   border-style: solid none none none;
 }
 
 /* Trending */
 .trend {
   width: 90%;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 /* Trending-Card */
 .trend .card {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   width: 100%;
-  padding: 20px 30px 11px;
+  padding: 1.25rem 1.875rem 0.6875rem;
   background-color: var(--clr-white);
-  border-radius: 7px;
-  box-shadow: 2px 2px 5px var(--clr-shadow);
+  border-radius: 0.4375rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem var(--clr-shadow);
 }
 
 .list_group_item {
   list-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .list_group_details p:nth-child(1) {
@@ -336,11 +336,11 @@ main {
 }
 
 .list_group_icon {
-  width: 50px;
+  width: 3.125rem;
 }
 
 .list_group_text {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 /* ======================= 
